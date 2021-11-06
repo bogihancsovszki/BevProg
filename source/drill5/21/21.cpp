@@ -5,7 +5,6 @@ int main()
 try {
     
  
-    
 
     int ab = 2; 
     double d =   5.0/ ab + 2.0;
