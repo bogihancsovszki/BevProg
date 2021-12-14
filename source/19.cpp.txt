@@ -1,0 +1,32 @@
+#include vector
+#include iostream
+#include memory
+
+stdvectorint suspicious()
+{
+        stdunique_ptrstdvectorint p = stdmake_uniquestdvectorint$
+
+        for(int i; stdcin  i; )
+        {
+                if(i) p-push_back(i);
+                else throw stdexception();
+        }
+
+        return p.release();
+}
+
+int main()
+try {
+stdvectorint p = suspicious();
+
+        for(int i = 0; i  p-size(); ++i)
+                stdcout  p-at(i)  ' ';
+        stdcout  'n';
+
+        delete p;
+
+        return 0;
+} catch (stdexception& e){
+        stdcerr  Error!n;
+        return 1;
+}
