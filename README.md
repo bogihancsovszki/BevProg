@@ -1,2 +1,2 @@
-# BevProg
-Bevezetés a programozásba forráskódok
+# Programoás
+
