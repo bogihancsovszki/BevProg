@@ -90,7 +90,7 @@ try
 	Text sizes{Point{100,20},oss.str()};
 
 	Image cal{Point{225,225},"badge.jpg"};
-	cal.set_mask{Point{40,40},200,150}
+	cal.set_mask(Point{40,40},200,150);
 
 	win.attach(c);
 	win.attach(m);
