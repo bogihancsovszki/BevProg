@@ -70,6 +70,8 @@ try
 
 	t.set_font(Font::times_bold);
 	t.set_font_size(30);
+	win.set_label("Canvas #9");
+	win.wait_for_button();
 
 	Image ii {Point{100,50},"badge.jpg"};
 	win.attach(ii);
